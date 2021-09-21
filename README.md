@@ -19,9 +19,10 @@ network learn to recognize doodling?" To be specific, we look at the performance
 on structurally similar and different doodling classification problem.
 
 Models that we experimented with
+
     - CNN
     - FFNN
-    - Resnet
+    - ResNet
     - Xgboost
 
 We finally experimented with **Word Embeddings** and **Transfer Learning** with different models on this problem.
@@ -33,9 +34,9 @@ conda create --name HDC --file env.yml
 ```
 
 ## Code Overview
-For PyTorch based model creation and training, see `*.py` python files under `src` directory. 
+For PyTorch based model creation, training and analysis, see `*.py` python files under `src` directory. 
 
-For TensorFlow based creation and training, see `*.ipynb` jupyter notebook files under `notebooks` 
+For TensorFlow based model creation, training and analysis, see `*.ipynb` jupyter notebook files under `notebooks` 
 directory.
 
 
