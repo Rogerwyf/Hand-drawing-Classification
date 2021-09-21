@@ -1,0 +1,7 @@
+__pycache__/*
+*~
+.*.swp
+GoogleNews-vectors-negative300.bin
+glove.*.txt
+glove.*.zip
+*.npy
